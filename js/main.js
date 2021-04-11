@@ -7,7 +7,30 @@
 jQuery(document).ready(function($) {
 
 	"use strict";
+/* Page Loader active
+  ========================================================*/
+  $('#preloader').fadeOut();
 
+  /* 
+   Back Top Link
+   ========================================================================== */
+   var offset = 200;
+   var duration = 500;
+   $(window).scroll(function() {
+	 if ($(this).scrollTop() > offset) {
+	   $('.back-to-top').fadeIn(400);
+	 } else {
+	   $('.back-to-top').fadeOut(400);
+	 }
+   });
+
+   $('.back-to-top').on('click',function(event) {
+	 event.preventDefault();
+	 $('html, body').animate({
+	   scrollTop: 0
+	 }, 600);
+	 return false;
+   })
 	
 	// $(".loader").delay(1000).fadeOut("slow");
  //  $("#overlayer").delay(1000).fadeOut("slow");	
