@@ -1,2 +1,0 @@
-(self.webpackChunkgatsby_starter_default=self.webpackChunkgatsby_starter_default||[]).push([[678],{7704:function(t,e,a){"use strict";a.r(e);a(7294);var n=a(8468),r=a(3751),s=a(3431);e.default=function(){return(0,s.tZ)(n.Z,null,(0,s.tZ)(r.Z,{description:"M. Farchan A. Website Portofolio",title:"M. Farchan A.",lang:"en"}))}}}]);
-//# sourceMappingURL=component---src-pages-index-js-0ad1d662157032638e40.js.map
